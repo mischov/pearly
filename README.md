@@ -17,7 +17,7 @@ Pearly.highlight("html", "<h1>Hello, World!</h1>",
 
 Pearly currently supports formatting output for either HTML pages or the terminal.
 
-See [HexDocs](https://hexdocs.pm/meeseeks/Pearly.html) for additional documentation.
+See [HexDocs](https://hexdocs.pm/pearly/Pearly.html) for additional documentation.
 
 ## Installation
 
