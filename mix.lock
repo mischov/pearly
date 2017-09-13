@@ -1,0 +1,5 @@
+%{"earmark": {:hex, :earmark, "1.2.3", "206eb2e2ac1a794aa5256f3982de7a76bf4579ff91cb28d0e17ea2c9491e46a4", [], [], "hexpm"},
+  "ex_doc": {:hex, :ex_doc, "0.16.4", "4bf6b82d4f0a643b500366ed7134896e8cccdbab4d1a7a35524951b25b1ec9f0", [], [{:earmark, "~> 1.1", [hex: :earmark, repo: "hexpm", optional: false]}], "hexpm"},
+  "hoedown": {:git, "https://github.com/hoedown/hoedown.git", "980b9c549b4348d50b683ecee6abee470b98acda", []},
+  "markdown": {:git, "https://github.com/devinus/markdown.git", "d065dbcc4e242a85ca2516fdadd0082712871fd8", []},
+  "rustler": {:hex, :rustler, "0.10.1", "cedcce8b8960e5a8d528903891e8cc7f2f0306680a1c478455e3d8e572c65cc4", [], [], "hexpm"}}

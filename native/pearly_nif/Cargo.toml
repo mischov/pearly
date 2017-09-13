@@ -1,0 +1,15 @@
+[package]
+name = "pearly_nif"
+version = "0.1.0"
+authors = ["Meeseeks <mmischov@gmail.com>"]
+
+[lib]
+name = "pearly_nif"
+path = "src/lib.rs"
+crate-type = ["dylib"]
+
+[dependencies]
+rustler = "^0.15.1"
+syntect = "1.7.2"
+lazy_static = "0.2"
+scoped-pool = "1.0.0"

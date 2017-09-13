@@ -1,0 +1,11 @@
+%YAML 1.2
+---
+# http://www.sublimetext.com/docs/3/syntax.html
+name: HTML (EEx)
+file_extensions:
+  - html.eex
+scope: text.html.elixir
+contexts:
+  main:
+    - include: scope:text.elixir
+    - include: scope:text.html.basic
