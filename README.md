@@ -32,7 +32,7 @@ Ensure Rust and cmake are installed, then add Pearly to your `mix.exs`:
 ```elixir
 defp deps do
   [
-    {:pearly, "~> 0.1.0"}
+    {:pearly, "~> 0.1.1"}
   ]
 end
 ```
