@@ -1,0 +1,5 @@
+[48;2;0;43;54m[38;2;131;148;150mdefmodule HighlightingTest do
+[48;2;0;43;54m[38;2;131;148;150m  @moduledoc "A module for testing highlighting"
+
+[48;2;0;43;54m[38;2;131;148;150m  def test(), do: [1, 2, 3]
+[48;2;0;43;54m[38;2;131;148;150mend

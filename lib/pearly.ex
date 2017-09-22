@@ -63,7 +63,10 @@ defmodule Pearly do
       {:ok, "\\e[48;2;0;43;54m\\e[38;2;88;110;117m<\\e[48;2;0;43;54m\\e[38;2;38;139;210mbr\\e[48;2;0;43;54m\\e[38;2;88;110;117m>"}
   """
   @spec highlight(lang, source, [opt]) :: {:ok, String.t} | error
-  def highlight(lang, source, opts \\ []) do
+  def highlight(lang, source, opts \\ [])
+  def highlight(nil, source, opts), do: highlight("txt", source, opts)
+  def highlight("", source, opts), do: highlight("txt", source, opts)
+  def highlight(lang, source, opts) do
     theme = Keyword.get(opts, :theme, "Solarized (dark)")
     format = Keyword.get(opts, :format, :html)
     Pearly.Native.highlight(format, lang, theme, source)
