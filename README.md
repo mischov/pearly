@@ -19,9 +19,15 @@ Pearly currently supports formatting output for either HTML pages or the termina
 
 See [HexDocs](https://hexdocs.pm/pearly/Pearly.html) for additional documentation.
 
+## Dependencies
+
+Pearly depends on the Rust library [Syntect](https://github.com/trishume/syntect), and you will need to have the Rust compiler [installed](https://www.rust-lang.org/en-US/install.html).
+
+Additionally, one of Syntect's dependencies (onig) requires cmake to be installed.
+
 ## Installation
 
-Add Pearly to your `mix.exs`:
+Ensure Rust and cmake are installed, then add Pearly to your `mix.exs`:
 
 ```elixir
 defp deps do
@@ -31,13 +37,7 @@ defp deps do
 end
 ```
 
-Then run `mix deps.get`.
-
-## Dependencies
-
-Pearly depends on the Rust library [Syntect](https://github.com/trishume/syntect), and you will need to have the Rust compiler [installed](https://www.rust-lang.org/en-US/install.html).
-
-Additionally, one of Syntect's dependencies (onig) requires cmake to be installed.
+Finally, run `mix deps.get`.
 
 ## Roadmap
 
